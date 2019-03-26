@@ -287,6 +287,8 @@ def player_by_number(num)
     loc[:players].each {|player|
       if player[:number] == num
         return player
+      else
+        next
     }
   }
 end
