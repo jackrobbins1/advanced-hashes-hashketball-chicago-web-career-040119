@@ -282,6 +282,6 @@ def big_shoe_rebounds
   return rebounds
 end
 
-def player_by_number()
+def player_by_number(num)
 
 end
