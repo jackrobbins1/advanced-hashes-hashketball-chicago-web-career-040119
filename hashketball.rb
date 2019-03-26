@@ -282,4 +282,6 @@ def big_shoe_rebounds
   return rebounds
 end
 
-big_shoe_rebounds
+def jersey_number
+  
+end
