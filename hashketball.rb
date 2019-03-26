@@ -287,3 +287,5 @@ def player_by_number
     binding.pry
   }
 end
+
+player_by_number
