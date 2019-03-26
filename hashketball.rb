@@ -286,6 +286,7 @@ def player_by_number(num)
   game_hash.each {|loc|
     loc[:players].each {|player|
       if player[:number] == num
+        puts player
         return player
       else
         next
