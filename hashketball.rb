@@ -289,6 +289,7 @@ def player_by_number(num)
         return player
       else
         next
+      end
     }
   }
 end
