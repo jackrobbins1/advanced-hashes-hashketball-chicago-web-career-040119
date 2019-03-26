@@ -282,9 +282,9 @@ def big_shoe_rebounds
   return rebounds
 end
 
-def player_by_number
+def player_by_number(num)
   game_hash.each {|loc, team_data|
-    binding.pry
+    team_data.each
   }
 end
 
