@@ -284,7 +284,7 @@ end
 
 def player_by_number(num)
   game_hash.each {|loc, team_data|
-    #binding.pry
+    binding.pry
     loc[:players].each {|player|
       if player[:number] == num
         puts player
