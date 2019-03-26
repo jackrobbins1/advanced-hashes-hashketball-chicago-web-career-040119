@@ -294,4 +294,4 @@ def player_by_number(num)
   }
 end
 
-player_by_number
+player_by_number(30)
