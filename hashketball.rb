@@ -283,7 +283,7 @@ def big_shoe_rebounds
 end
 
 def player_by_number(num)
-  game_hash.each {|loc|
+  game_hash.each {|loc, team_data|
     binding.pry
     loc[:players].each {|player|
       if player[:number] == num
